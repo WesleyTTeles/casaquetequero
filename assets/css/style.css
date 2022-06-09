@@ -198,12 +198,13 @@ li a:hover {
 }
 .btn {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
     flex-direction: row;
     gap: 10px;
     padding: 10px;
     margin-top: 10px;
+    width: 90%;
 }
 .btn button {
     height: 30px;
@@ -219,6 +220,9 @@ li a:hover {
     color: var(--primary-color);
     font-size: 0.9rem;
 }
+.fa-heart {
+    cursor: pointer;
+}
 
 /* >>>>>>>>>>>>> Tipos de Produtos <<<<<<<<< */
 .show-products {
@@ -232,7 +236,7 @@ li a:hover {
 .row-conteiner-1 {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
@@ -253,7 +257,6 @@ li a:hover {
     background-image: url(/assets/image/item1.png);
     display: flex;
     justify-content:end;
-    align-self:flex-end;
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
@@ -278,7 +281,6 @@ li a:hover {
     background-image: url(/assets/image/item3.png);
     display: flex;
     justify-content: end;
-    align-self:flex-start;
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
@@ -302,6 +304,7 @@ li a:hover {
     gap: 10px;
     padding: 10px;
     margin-top: 10px;
+   
 }
 .btn-seemore button {
     height: 40px;
@@ -310,6 +313,7 @@ li a:hover {
     background-color: var(--color-bar);
     border: 0;
     border-radius: 20px;
+    
 }
 .btn-seemore a {
     text-decoration: none;
@@ -349,6 +353,13 @@ li a:hover {
 }
 #producs-2 {
     margin: 0 10px;
+}
+.info-products span {
+    font-family: 'Raleway', sans-serif;
+}
+.info-products ul {
+    list-style:circle;
+    font-family: 'Raleway', sans-serif;
 }
 .rightside {
     display: flex;
@@ -417,7 +428,7 @@ li a:hover {
     border-radius: 30px;
     background-color: var(--btn-whatsapp);
 }
-a .fa-whatsapp {
+.rightside a .fa-whatsapp {
     color: #fff;
 }
 /* >>>>>>>>>>> Rodape <<<<<<<< */
