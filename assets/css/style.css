@@ -182,8 +182,9 @@ li a:hover {
     width: 300px;
     height: auto;
     padding: 10px;
-    margin: 0 10px;
+    margin: 10px 10px;
     border: solid 1px tomato;
+
 }
 .box-products h2 {
     font-family: 'Raleway', sans-serif;
@@ -226,7 +227,6 @@ li a:hover {
     align-content: center;
     width: 100%;
     height: auto;
-    
     margin-top: 10px;
 }
 .row-conteiner-1 {
@@ -317,6 +317,109 @@ li a:hover {
     font-size: 1rem;
 }
 
+/* >>>>>>>>>>>>> Chekout <<<<<<<<<< */
+
+.row-chekout {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: auto;
+    /* border: 2px solid #E74610; */
+}
+.box-chekout {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 10px;
+    background-color: white
+
+}
+.leftside {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+}
+.box-imgs img {
+    cursor: pointer;
+    padding: 10px 0;
+}
+#producs-2 {
+    margin: 0 10px;
+}
+.rightside {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: center;
+    flex: 1;
+}
+.rightside h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7rem;
+    text-align: center;
+}
+.info-price {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    width: 90%;
+}
+.info-price h2 {
+    font-size: 1.5rem;
+    align-self: baseline;
+    font-family: 'Raleway', sans-serif;
+    color: var(--primary-color);
+    margin: 5px 0;
+
+}
+.info-price span {
+    align-self: baseline;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+.info-price p {
+    align-self: baseline;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    margin: 50px 0;
+    font-weight: 300;
+}
+.rightside button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+}
+.rightside a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: var(--container-color);
+    font-size: 1rem;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    padding: 3px;
+    border-radius: 30px;
+    background-color: var(--btn-whatsapp);
+}
+a .fa-whatsapp {
+    color: #fff;
+}
 /* >>>>>>>>>>> Rodape <<<<<<<< */
 
 footer {
@@ -353,11 +456,7 @@ footer {
 .midia-icon {
     padding: 10px;
 }
-.fa-cc-visa,
-.fa-pix,
-.fa-instagram,
-.fa-whatsapp,
-.fa-cc-mastercard  {
+.fa-brands  {
     color: #F8972F;
 }
 .footer-infor {
